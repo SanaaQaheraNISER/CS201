@@ -1,0 +1,15 @@
+struct DFA {
+  char *states;
+  int count;
+} dfa;
+  
+int last_index = 0;
+FILE *fp;
+int symbols;
+  
+/* reset the hash map*/
+void reset(int ar[], int size) {
+  int i;
+  
+  // reset all the values of
+  // the mapping array 
